@@ -1,0 +1,49 @@
+/* ViewUserGrid.css */
+
+.user-grid-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    overflow: auto; /* Allow the container to scroll */
+    height: 400px; /* Set a fixed height for scrolling */
+  }
+  
+  .user-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    gap: 20px;
+    max-width: 100%;
+    overflow: hidden; /* Hide overflow on the grid */
+  }
+  
+  .user-card {
+    border: 1px solid #ddd;
+    padding: 20px; /* Increase padding for larger cards */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    overflow: hidden; /* Hide overflow inside each card */
+  }
+  
+  /* User Card Style */
+  .user-card.user {
+    background-color: #d0e1f9; /* Light blue for users */
+  }
+  
+  /* Admin Card Style */
+  .user-card.admin {
+    background-color: #f8d0d0; /* Light red for admins */
+  }
+  
+  .user-card h3 {
+    font-size: 24px; /* Larger font size for headings */
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .user-card p {
+    font-size: 18px; /* Larger font size for paragraphs */
+    margin-bottom: 10px; /* Increased margin between details */
+    color: #555;
+  }
+  

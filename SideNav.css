@@ -1,0 +1,48 @@
+/* SideNav.css */
+.side-nav {
+    position: fixed;
+    top: 60px; /* Adjust the top position to match your header's height */
+    left: 0;
+    height: 100%; /* Make it full height */
+    background-color: #333;
+    color: white;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    transition: width 0.3s; /* Add a transition effect for the width */
+  }
+  
+  .side-nav.expanded {
+    width: 250px; /* Initial width when expanded */
+  }
+  
+  .side-nav.collapsed {
+    width: 60px; /* Width when collapsed */
+  }
+  
+  .profile img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    width: 100%; /* Make the list full width */
+  }
+  
+  nav li {
+    margin: 10px 0;
+    cursor: pointer;
+    padding: 10px 0; /* Increase the padding for better click target */
+    text-align: center; /* Center the text */
+  }
+  
+  /* Highlight the selected option */
+  .active {
+    background-color: #555;
+  }
+  

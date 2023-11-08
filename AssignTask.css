@@ -1,0 +1,52 @@
+/* AssignTask.css (you can create a separate CSS file for the component) */
+
+.assign-task {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    max-width: 400px;
+
+  }
+  
+  h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  input[type="text"],
+  select {
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }

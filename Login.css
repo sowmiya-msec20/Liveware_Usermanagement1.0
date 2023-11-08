@@ -1,0 +1,89 @@
+/* Login Container Styles */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2; /* Set the background color */
+    font-family: 'Arial', sans-serif; /* Add classic fonts */
+  }
+  
+  /* Login Box Styles */
+  .login-box {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    margin: 0 20px; /* Adjust the spacing between the login box and image box */
+  }
+  
+  .login-box h2 {
+    font-size: 24px;
+    color: #333; /* Set the heading color */
+    margin-bottom: 20px;
+  }
+  
+  /* Form Group Styles */
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Submit Button Styles */
+  .login-box button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .login-box button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Error Message Styles */
+  .error {
+    text-align: center;
+    background-color: #ff7f7f; /* Red background color */
+    color: #fff; /* White text color */
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    animation: flash 2s infinite; /* Flashing animation */
+  }
+  
+  @keyframes flash {
+    0%, 50%, 100% {
+      opacity: 1;
+    }
+    25%, 75% {
+      opacity: 0;
+    }
+  }
+  
+  /* Image Box Styles */
+  .image-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image-box img {
+    max-width: 100%;
+    height: auto;
+  }
+  

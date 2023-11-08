@@ -1,0 +1,44 @@
+/* EditProfile.css */
+.edit-profile-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    width:200px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .edit-profile-container h2 {
+    color: #333;
+  }
+  
+  .edit-profile-container label {
+    display: block;
+    margin: 10px 0;
+    color: #555;
+  }
+  
+  .edit-profile-container input,
+  .edit-profile-container textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .edit-profile-container button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .edit-profile-container button:hover {
+    background-color: #0056b3;
+  }
+  

@@ -1,0 +1,23 @@
+.user-admin-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .user-admin-box button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .user-admin-box button:hover {
+    background-color: #0056b3;
+  }
+  

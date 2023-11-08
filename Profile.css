@@ -1,0 +1,36 @@
+/* Profile.css */
+.profile-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .profile-container h2 {
+    color: #333;
+  }
+  
+  .profile-container ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .profile-container ul li {
+    margin: 10px 0;
+    color: #555;
+  }
+  
+  /* Style the list items individually if needed */
+  .profile-container ul li:first-child {
+    font-weight: bold;
+  }
+  
+  .profile-container ul li a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
